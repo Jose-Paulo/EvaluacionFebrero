@@ -112,7 +112,6 @@ public class Electrodomestico {
 		return precioBase+extra;
 	}
 
-	
 	//Constructores
 	//Contructor por defecto
 	public Electrodomestico(){

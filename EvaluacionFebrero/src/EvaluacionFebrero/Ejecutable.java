@@ -7,7 +7,6 @@ public class Ejecutable {
 		//Array
 		Electrodomestico listaElectrodomesticos[]= new Electrodomestico[10];
 
-		
 		//Posiciones
 		listaElectrodomesticos[0]=new Electrodomestico(200, 60, 'A', "Blanco");
 		listaElectrodomesticos[1]=new Lavadora(200, 40);

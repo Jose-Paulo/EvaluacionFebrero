@@ -25,7 +25,6 @@ public class Television extends Electrodomestico{
 		return extra;
 	}
 
-	
 	//Constructores
 	//Contructor por defecto
 	public Television(){
