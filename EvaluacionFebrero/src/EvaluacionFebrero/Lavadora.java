@@ -23,6 +23,7 @@ public class Lavadora extends Electrodomestico{
 		return extra;
 	}
 
+	
 	//Constructores
 	//Contructor por defecto
 	public Lavadora(){
