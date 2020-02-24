@@ -15,12 +15,12 @@ public class Lavadora extends Electrodomestico{
 
 	//Precio Final
 	public double precioFinal(){
-		double plus=super.precioFinal();
+		double extra=super.precioFinal();
 		if (carga>30){
-			plus+=50;
+			extra+=50;
 		}
 
-		return plus;
+		return extra;
 	}
 
 	//Constructores

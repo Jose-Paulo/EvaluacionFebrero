@@ -13,16 +13,16 @@ public class Television extends Electrodomestico{
 
 	//Precio final de la television
 	public double precioFinal(){
-		double plus=super.precioFinal();
+		double extra=super.precioFinal();
 
 		if (resolucion>40){
-			plus+=precioBase*0.3;
+			extra+=precioBase*0.3;
 		}
 		if (sintonizadorTDT){
-			plus+=50;
+			extra+=50;
 		}
 
-		return plus;
+		return extra;
 	}
 
 	//Constructores

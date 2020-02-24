@@ -77,39 +77,39 @@ public class Electrodomestico {
 	}
 
 	public double precioFinal(){
-		double plus=0;
+		double extra=0;
 		switch(consumoEnergetico){
 		case 'A':
-			plus+=100;
+			extra+=100;
 			break;
 		case 'B':
-			plus+=80;
+			extra+=80;
 			break;
 		case 'C':
-			plus+=60;
+			extra+=60;
 			break;
 		case 'D':
-			plus+=50;
+			extra+=50;
 			break;
 		case 'E':
-			plus+=30;
+			extra+=30;
 			break;
 		case 'F':
-			plus+=10;
+			extra+=10;
 			break;
 		}
 
 		if(peso>=0 && peso<19){
-			plus+=10;
+			extra+=10;
 		}else if(peso>=20 && peso<49){
-			plus+=50;
+			extra+=50;
 		}else if(peso>=50 && peso<=79){
-			plus+=80;
+			extra+=80;
 		}else if(peso>=80){
-			plus+=100;
+			extra+=100;
 		}
 
-		return precioBase+plus;
+		return precioBase+extra;
 	}
 
 	//Constructores
